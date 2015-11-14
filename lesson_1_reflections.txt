@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Using the diff command helped narrow down the lines that were different between the two files. From there it was much easier to compare and identify the mistake
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It'll help keep track of all the changes I've done over the course of the project. It'll be helpful in resolving bugs or reverting to an earlier version if an update has introduced a game-breaking bug
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros - you can create commits at logical points that make the most sense in terms of version control. 
+Cons - It's dependent on the user and a programmer can ignore committing for large parts of the code making it difficult to track changes to the version
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+combining multiple files into a repository is useful for programming where multiple files are related to each other. For programming version control saving multiple files in one commit makes a lot of sense. Saving multiple unrelated files in a single commit doesn't seem very useful
+
+How can you use the commands git log and git diff to view the history of files?
+
+use git log to view the different versions with the comments indicating the change in each version. Then use git diff to compare the two versions that need to be compared
+
+How might using version control make you more confident to make changes that could break something?
+
+Knowing that I could at any time revert to an older "working" version of code would make me more confident about making changes and adding features
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to understand how checkout and branching works and how to move between different commits
