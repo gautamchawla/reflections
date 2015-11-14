@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It get's added under git and gives you the ability to start version control on the files in that directory. You would do it if you want to maintain multiple versions of the files in that directory
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is the intermediate area in which files are stored before they're committed. It allows you to bring in a part of all the files in the working directory before you commit. 
